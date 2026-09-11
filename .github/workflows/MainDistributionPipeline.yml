@@ -38,7 +38,7 @@ jobs:
     name: Code Quality Check
     uses: duckdb/extension-ci-tools/.github/workflows/_extension_code_quality.yml@main
     with:
-      duckdb_version: main
+      duckdb_version: fc4002c6e36f1e2d17d7c5b1a604777d69238d2b
       ci_tools_version: main
       extension_name: azure
       # TODO: format_checks += ;tidy
